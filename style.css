@@ -1,0 +1,359 @@
+
+    body {
+      background: #222f3e;
+      /* background: #ece7e1; */
+      font-family: monospace ;
+
+    }
+
+    .listStyle {
+
+      list-style: none;
+    }
+
+    /* 左邊主選色 */
+
+    #pick{
+      float: left;
+    }
+
+    .pick {
+      width: 25px;
+      margin: 100px;
+    }
+
+    .mainColor {
+
+      float: left;
+      margin-top: 100px;
+
+    }
+
+    .firstColorName {
+      margin-bottom: 20px;
+
+      color : #9b9b9b;
+      font-family: 'Noto Serif TC', serif;
+      font-size: 30px;
+      letter-spacing: 5px;
+
+    }
+
+    .firstColor {
+
+      float: left;
+      margin-left: 40px;
+
+      width: 450px;
+      height: 50px;
+      background-color: #9b9b9b;
+
+    }
+
+    .firstColorCMYK {
+      padding-top: 50px;
+      padding-left: 40px;
+
+      color : #9b9b9b;
+      font-size: 17px;
+      letter-spacing: 5px;
+
+    }
+
+    .chooseColor {
+      margin-left: 40px;
+      margin-top: 10px;
+
+      color: #9b9b9b;
+      /* font-family: 'Noto Serif TC', serif; */
+      font-size: 20px;
+      letter-spacing: 5px;
+    }
+
+    .fiveToChoose{
+      float: left;
+      margin-top: 60px;
+      margin-left: 40px;
+    }
+
+    .detail{
+      width: 450px;
+      height:200px;
+      color : #9b9b9b;
+      font-family: 'Noto Serif TC', serif;
+      font-size: 14px;
+
+
+
+    }
+
+    .ball {
+
+      width: 0px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 11px;
+      margin-left: 11px;
+      /* border: solid 1px white; */
+      /* background-color: #855253; */
+    }
+
+    .one {
+
+      float: left;
+      background-color: #427783;
+
+    }
+
+    .two {
+
+      float: left;
+      margin-left: 25px;
+      background-color: #bfa98f;
+    }
+
+    .three {
+
+      float: left;
+      margin-left: 25px;
+      background-color: #bc839f;
+    }
+
+    .four {
+
+      float: left;
+      margin-left: 25px;
+      background-color: #9b7f66;
+    }
+
+    .five {
+
+      float: left;
+      margin-left: 25px;
+      background-color: #36243a;
+    }
+
+
+    /* 右邊搭配區域 */
+
+    .matchArea {
+
+      float: left;
+      margin-top: 125px;
+      margin-left: 120px;
+    }
+
+    .matchColorName {
+
+      margin-bottom: 0px;
+
+      /* color : #827e62; */
+      /* font-family: 'Noto Serif TC', serif; */
+      font-size: 13px;
+      letter-spacing: 5px;
+    }
+
+    .matchColor {
+
+      float: left;
+      margin-left: 40px;
+      margin-bottom: 30px;
+
+      width: 350px;
+      height: 32px;
+      /* background-color: #827e62; */
+
+    }
+
+    .matchColorCMYK {
+
+      padding-top: 35px;
+      padding-left: 40px;
+
+      list-style: none;
+      font-size: 9px;
+      letter-spacing: 5px;
+    }
+
+        /* ----------右側CSS屬性---------- */
+
+    .match1 {
+
+      color : #9b9b9b;
+    }
+
+    .color1 {
+
+      background-color: #9b9b9b;
+    }
+
+    .CMYK1 {
+
+      color : #9b9b9b;
+    }
+
+    .match2 {
+
+      color : #9b9b9b;
+      /* margin-top: 28px; */
+    }
+
+    .color2 {
+
+      background-color: #9b9b9b;
+    }
+
+    .CMYK2 {
+
+      color : #9b9b9b;
+    }
+
+    .match3 {
+
+      color : #9b9b9b;
+    }
+
+    .color3 {
+
+      background-color: #9b9b9b;
+    }
+
+    .CMYK3 {
+
+      color : #9b9b9b;
+    }
+
+    .match4 {
+
+      color : #9b9b9b;
+    }
+
+    .color4 {
+
+      background-color: #9b9b9b;
+    }
+
+    .CMYK4 {
+
+      color : #9b9b9b;
+    }
+
+    .match5 {
+
+      color : #9b9b9b;
+    }
+
+    .color5 {
+
+      background-color: #9b9b9b;
+    }
+
+    .CMYK5 {
+
+      color : #9b9b9b;
+    }
+
+    /* ----------右側CSS屬性---------- */
+
+
+
+
+    .choosing1 {
+      background-color: #7b131d;
+
+    }
+    .choosing1TextColor {
+      color: #7b131d;
+    }
+
+    .choosing2 {
+      background-color:#e28220;
+    }
+
+    .choosing2TextColor {
+      color: #e28220;
+    }
+
+
+
+    .choosing3 {
+      background-color:#855758;
+    }
+
+    .choosing3TextColor {
+      color: #855758;
+    }
+
+    .choosing4 {
+      background-color:#917b8f;
+    }
+
+    .choosing4TextColor {
+      color: #917b8f;
+    }
+
+    .choosing5 {
+      background-color:#687d8b;
+    }
+
+    .choosing5TextColor {
+      color: #687d8b;
+    }
+
+    .choosing6 {
+      background-color:#a17f63;
+    }
+
+    .choosing6TextColor {
+      color: #a17f63;
+    }
+
+    .choosing7 {
+      background-color:#6c6230;
+    }
+
+    .choosing7TextColor {
+      color: #6c6230;
+    }
+
+
+    .choosing8 {
+      background-color:#141d26;
+    }
+
+    .choosing8TextColor {
+      color: #141d26;
+    }
+
+    .choosing9 {
+      background-color:#e0d7cc;
+    }
+
+    .choosing9TextColor {
+      color: #e0d7cc;
+    }
+
+
+
+
+
+
+
+
+    .footer{
+
+      float:left;
+
+      height: 25px;
+      width: 100%;
+      margin-bottom: -10px;
+      margin-top: 50px;
+      padding-top: 5px;
+      padding-right: 5px;
+      text-align: right;
+
+      /* background-color: #18232d; */
+      color: #9b9b9b;
+      font-size: 11px;
+      letter-spacing: 3px;
+    }
