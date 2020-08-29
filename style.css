@@ -1,8 +1,10 @@
 
     body {
-      background: #222f3e;
+      /* background: #222f3e; */
       /* background: #ece7e1; */
       font-family: monospace ;
+      background-image: url(img/paper6.jpg);
+      background-size: 100%;
 
     }
 
@@ -17,9 +19,116 @@
       float: left;
     }
 
+    .logo {
+
+      margin: 100px 100px 25px 89px;
+    }
+
+    .logoSize {
+
+      width: 48px;
+    }
+
     .pick {
+      margin-left: 100px;
+    }
+
+    .pickSize {
+
       width: 25px;
-      margin: 100px;
+    }
+
+    .btn2 {
+      width: 0px;
+      height: 0px;
+      bottom: 0px;
+    }
+
+    /* .fiveYouLove div:first-child{
+      width: 45px;
+      height:45px;
+      background-color: tomato;
+
+      float: left;
+      margin-left: 6px;
+      margin-right: 5px;
+
+    } */
+
+    .fiveYouLove div{
+      width: 45px;
+      height:45px;
+      background-color: #222f3e;
+      color: #9b9b9b;
+
+      float: left;
+      margin-left: 6px;
+      margin-right: 5px;
+      font-size: 15px;
+      padding-left: 6px;
+
+    }
+
+    .love {
+
+      margin: 35px 0 0 100px;
+    }
+
+    .loveSize {
+
+      width: 30px;
+    }
+
+    .long {
+      width: 260px;
+      /* height: 200px; */
+    }
+
+
+    .love1{
+      width: 45px;
+      height:45px;
+      background-color: tomato;
+
+      float: left;
+      margin-left: 6px;
+      margin-right: 5px;
+    }
+
+    .love2{
+      width: 45px;
+      height:45px;
+      background-color: white;
+
+      float: left;
+      margin-right: 5px;
+    }
+
+    .love3{
+      width: 45px;
+      height:45px;
+      background-color: gray;
+
+      float: left;
+      margin-right: 5px;
+    }
+
+    .love4{
+      width: 45px;
+      height:45px;
+      background-color: black;
+
+      float: left;
+      margin-right: 5px;
+    }
+
+    .love5{
+      width: 45px;
+      height:45px;
+      background-color: blue;
+
+      float: left;
+      margin-right: 5px;
     }
 
     .mainColor {
@@ -72,24 +181,32 @@
 
     .fiveToChoose{
       float: left;
-      margin-top: 60px;
+      margin-top: 30px;
       margin-left: 40px;
     }
 
     .detail{
+      margin-bottom: 30px;
       width: 450px;
       height:200px;
       color : #9b9b9b;
       font-family: 'Noto Serif TC', serif;
       font-size: 14px;
 
+    }
 
+    .pic {
 
+      width: 450px;
+      height: 200px;
+      margin-top: 0;
+      background-image: ;
+      background-size: 450px;
     }
 
     .ball {
 
-      width: 0px;
+      width: 50px;
       height: 50px;
       border-radius: 50%;
       margin-right: 11px;
@@ -101,7 +218,7 @@
     .one {
 
       float: left;
-      background-color: #427783;
+      background-color: #9b9b9b;
 
     }
 
@@ -109,28 +226,28 @@
 
       float: left;
       margin-left: 25px;
-      background-color: #bfa98f;
+      background-color: #9b9b9b;
     }
 
     .three {
 
       float: left;
       margin-left: 25px;
-      background-color: #bc839f;
+      background-color: #9b9b9b;
     }
 
     .four {
 
       float: left;
       margin-left: 25px;
-      background-color: #9b7f66;
+      background-color: #9b9b9b;
     }
 
     .five {
 
       float: left;
       margin-left: 25px;
-      background-color: #36243a;
+      background-color: #9b9b9b;
     }
 
 
@@ -157,7 +274,7 @@
 
       float: left;
       margin-left: 40px;
-      margin-bottom: 30px;
+      margin-bottom: 45px;
 
       width: 350px;
       height: 32px;
@@ -343,10 +460,11 @@
     .footer{
 
       float:left;
+      position: fixed;
 
       height: 25px;
       width: 100%;
-      margin-bottom: -10px;
+      bottom: 0px;
       margin-top: 50px;
       padding-top: 5px;
       padding-right: 5px;

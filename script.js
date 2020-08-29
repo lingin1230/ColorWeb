@@ -45,15 +45,33 @@ $( function() {
 		$(".color4").animate({'background-color' : '#ffc3b4'}, 'slow');
 		$(".color5").animate({'background-color' : '#9b7f66'}, 'slow');
 
-		$(".one")  .animate({'background-color' : '#7b131d' , 'width':'50'}, 'fast');
-		$(".two")  .animate({'background-color' : '#772934' , 'width':'50'}, 'fast');
-		$(".three").animate({'background-color' : '#723f48' , 'width':'50'}, 'fast');
-		$(".four") .animate({'background-color' : '#6d5258' , 'width':'50'}, 'fast');
-		$(".five") .animate({'background-color' : '#665d60' , 'width':'50'}, 'fast');
+		$(".one")  .animate({'background-color' : '#7b131d'}, 'slow');
+		$(".two")  .animate({'background-color' : '#772934'}, 'slow');
+		$(".three").animate({'background-color' : '#723f48'}, 'slow');
+		$(".four") .animate({'background-color' : '#6d5258'}, 'slow');
+		$(".five") .animate({'background-color' : '#665d60'}, 'slow');
 
+		// $(".pic") .animate({'background-image' : 'url(img/pic1.jpg)'}, 'slow');
+		$(".pic").css("background-image","url(img/pic1.jpg)");
+
+
+	      // $('.firstColor').click(function(){
+	      //   $('.fiveYouLove').append(" <div></div> ");
+	      // });
 
 	});
 } );
+
+
+
+
+// $(".btn1").click(function(){
+//   $("p").css("color","red");
+// });
+
+
+
+
 
 // 2點按秋果豐收
 $( function() {
@@ -89,7 +107,22 @@ $( function() {
 		$(".four") .animate({'background-color' : '#d3b49f'}, 'slow');
 		$(".five") .animate({'background-color' : '#c6b6ac'}, 'slow');
 
+		$(".pic").css("background-image","url(img/pic2.jpg)");
 
+
+		// 點按增加到愛心裡
+
+		// $('.firstColor').click(function(){
+		// 	$('.love1').css("background-color","#e28220");
+
+			// $(document).ready(function(){
+	    //   $('.firstColor').click(function(){
+	    //     $('.fiveYouLove').append(" <div></div> ");
+	    //   });
+
+				// $('.fiveYouLove.div').css("background-color","#7b131d");
+
+		// });
 	});
 } );
 
@@ -127,7 +160,7 @@ $( function() {
 		$(".four") .animate({'background-color' : '#855758'}, 'slow');
 		$(".five") .animate({'background-color' : '#7f6667'}, 'slow');
 
-
+		$(".pic").css("background-image","url(img/pic3.jpg)");
 	});
 } );
 
@@ -154,9 +187,9 @@ $( function() {
 		$( '.firstColorCMYK' ).text("C51 M55 Y30 K0");
 
 		$(".color1").animate({'background-color' : '#6f8fc9'}, 'slow');
-		$(".color2").animate({'background-color' : '#c9c5df'}, 'slow');
-		$(".color3").animate({'background-color' : '#c58194'}, 'slow');
-		$(".color4").animate({'background-color' : '#965c7b'}, 'slow');
+		$(".color2").animate({'background-color' : '#8e71c6'}, 'slow');
+		$(".color3").animate({'background-color' : '#c9c5df'}, 'slow');
+		$(".color4").animate({'background-color' : '#c58194'}, 'slow');
 		$(".color5").animate({'background-color' : '#66485a'}, 'slow');
 
 		$(".one")  .animate({'background-color' : '#77217c'}, 'slow');
@@ -164,6 +197,8 @@ $( function() {
 		$(".three").animate({'background-color' : '#874c87'}, 'slow');
 		$(".four") .animate({'background-color' : '#8c648a'}, 'slow');
 		$(".five") .animate({'background-color' : '#917b8f'}, 'slow');
+
+		$(".pic").css("background-image","url(img/pic4.jpg)");
 	});
 } );
 
@@ -201,6 +236,8 @@ $( function() {
 		$(".three").animate({'background-color' : '#4c7287'}, 'slow');
 		$(".four") .animate({'background-color' : '#687d8b'}, 'slow');
 		$(".five") .animate({'background-color' : '#7b8387'}, 'slow');
+
+		$(".pic").css("background-image","url(img/pic5.jpg)");
 	});
 } );
 
@@ -227,19 +264,22 @@ $( function() {
 		$( '.firstColorName' ).text("異 域 磚 牆");
 		$( '.firstColorCMYK' ).text("C45 M53 Y62 K0");
 
-		$(".color1").animate({'background-color' : '#f1d3b6'}, 'slow');
-		$(".color2").animate({'background-color' : '#cba276'}, 'slow');
-		$(".color3").animate({'background-color' : '#816559'}, 'slow');
-		$(".color4").animate({'background-color' : '#855758'}, 'slow');
-		$(".color5").animate({'background-color' : '#885436'}, 'slow');
+		$(".color1").animate({'background-color' : '#e8b997'}, 'slow');
+		$(".color2").animate({'background-color' : '#c7c1bf'}, 'slow');
+		$(".color3").animate({'background-color' : '#6d98ad'}, 'slow');
+		$(".color4").animate({'background-color' : '#e28220'}, 'slow');
+		$(".color5").animate({'background-color' : '#855758'}, 'slow');
 
 		$(".one")  .animate({'background-color' : '#914e22'}, 'slow');
 		$(".two")  .animate({'background-color' : '#965e38'}, 'slow');
 		$(".three").animate({'background-color' : '#996f50'}, 'slow');
 		$(".four") .animate({'background-color' : '#a17f63'}, 'slow');
 		$(".five") .animate({'background-color' : '#a08f82'}, 'slow');
+
+		$(".pic").css("background-image","url(img/pic6.jpg)");
 	});
 } );
+
 
 
 // 7點按綠洲野獸
@@ -266,7 +306,7 @@ $( function() {
 
 		$(".color1").animate({'background-color' : '#e2c498'}, 'slow');
 		$(".color2").animate({'background-color' : '#897064'}, 'slow');
-		$(".color3").animate({'background-color' : '#6c6230'}, 'slow');
+		$(".color3").animate({'background-color' : '#454216'}, 'slow');
 		$(".color4").animate({'background-color' : '#213d27'}, 'slow');
 		$(".color5").animate({'background-color' : '#141d26'}, 'slow');
 
@@ -275,6 +315,8 @@ $( function() {
 		$(".three").animate({'background-color' : '#6c6230'}, 'slow');
 		$(".four") .animate({'background-color' : '#686141'}, 'slow');
 		$(".five") .animate({'background-color' : '#636050'}, 'slow');
+
+		$(".pic").css("background-image","url(img/pic7.jpg)");
 	});
 } );
 
@@ -312,6 +354,8 @@ $( function() {
 		$(".three").animate({'background-color' : '#222c35'}, 'slow');
 		$(".four") .animate({'background-color' : '#353d44'}, 'slow');
 		$(".five") .animate({'background-color' : '#464d51'}, 'slow');
+
+		$(".pic").css("background-image","url(img/pic8.jpg)");
 	});
 } );
 
@@ -350,8 +394,40 @@ $( function() {
 		$(".three").animate({'background-color' : '#bcb5ad'}, 'slow');
 		$(".four") .animate({'background-color' : '#e0d7cc'}, 'slow');
 		$(".five") .animate({'background-color' : '#fff7ee'}, 'slow');
+		$(".pic").css("background-image","url(img/pic9.jpg)");
 	});
 } );
+
+
+
+
+
+
+
+// －－－－－－－－－－－－－－愛心跳動效果－－－－－－－－－－－－－－
+
+$( function() {
+	$( '.firstColor , .one , .two , .three , .four , .five , .color1 , .color2 , .color3 , .color4 , .color5' ).on( "click", function() {
+		$(".loveSize").animate({'width' : '55px'}, 'fast');
+		$(".loveSize").animate({'width' : '30px'}, 'fast');
+	});
+});
+
+$( function() {
+	$( '.love' ).on( "click", function() {
+		$(".loveSize").animate({'width' : '55px'}, 'fast');
+		$(".loveSize").animate({'width' : '30px'}, 'fast');
+	});
+});
+
+
+// －－－－－－－－－－－－－－愛心收藏內容－－－－－－－－－－－－－－
+
+
+
+
+
+
 
 
 
