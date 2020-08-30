@@ -594,6 +594,18 @@ $( function() {
 
 
 
+// －－－－－－－－－－－－－－留言下拉效果－－－－－－－－－－－－－－
+
+$('.message').click(function(){
+	$('html,body').animate({scrollTop:$('.messageArea').offset().top},1000);
+});
+
+
+// －－－－－－－－－－－－－－留言下拉效果－－－－－－－－－－－－－－
+
+
+
+
 
 
 
