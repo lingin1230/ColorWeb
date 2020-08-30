@@ -594,14 +594,28 @@ $( function() {
 
 
 
-// －－－－－－－－－－－－－－留言下拉效果－－－－－－－－－－－－－－
+// －－－－－－－－－－－－－－留言區域－－－－－－－－－－－－－－
 
 $('.message').click(function(){
 	$('html,body').animate({scrollTop:$('.messageArea').offset().top},1000);
 });
 
 
-// －－－－－－－－－－－－－－留言下拉效果－－－－－－－－－－－－－－
+
+
+
+$('.submit').click(function(){
+
+  $('.yourMessage').css("display" , "block")
+	$('#yourName').text($('#name').val());
+	$('#yourMessage').text($('#text').val());
+
+	// document.getElementById('yourName').textContent = $('#name').val(); 和上面的是一樣的
+
+
+});
+
+// －－－－－－－－－－－－－－留言區域－－－－－－－－－－－－－－
 
 
 

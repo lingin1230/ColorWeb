@@ -498,7 +498,7 @@
     }
 
 
-    hr{
+    .hr1{
 
       background-color: white;
       margin: 0 30px 60px 30px;
@@ -512,6 +512,20 @@
 
     }
 
+    .messageLeft{
+      width: 50%;
+      height: 500px;
+      /* background-color: black; */
+      float: left;
+    }
+
+    .messageRight{
+      width: 50%;
+      height: 500px;
+      /* background-color: white; */
+      float: left;
+    }
+
     .name{
 
       /* float: left; */
@@ -520,20 +534,72 @@
 
     #name{
 
-      background-color: #9b9b9b;
-      color: #3f3f3f;
+      background-color: #30404f;
+      color: white;
+
+      border: solid white 1px;
+      border-radius: 7px;
+      font-size: 14px;
+      letter-spacing: 5px;
     }
 
     .text{
 
-      margin: 0 0 0 100px;
+      margin: 20px 0 0 100px;
       /* float: left; */
     }
 
     #text{
 
-      background-color: #9b9b9b;
-      color: #3f3f3f;
+      background-color: #30404f;
+      color: white;
+
+      border: solid white 1px;
+      border-radius: 7px;
+      font-size: 14px;
+      letter-spacing: 3px;
+    }
+
+    .submit{
+
+      margin: 20px 0 0 490px;
+    }
+
+    #submit{
+
+      /* background-color: #9b9b9b;
+      color: #3f3f3f; */
+
+      /* border: solid white 1px;
+      border-radius: 7px; */
+      font-size: 15px;
+      letter-spacing: 3px;
+      text-align: center;
+    }
+
+
+    .yourMessage{
+
+      width: 500px;
+      height:150px;
+      margin: 20px 0 20px 100px;
+      padding: 15px;
+
+      background-color: #30404f;
+      color: white;
+
+      border: solid white 1px;
+      border-radius: 7px;
+      font-size: 14px;
+      letter-spacing: 3px;
+
+      display: none;
+    }
+
+    .hr2 {
+
+      background-color: white;
+      margin: 10px 0px;
     }
 
 
