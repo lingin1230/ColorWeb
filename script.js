@@ -399,7 +399,175 @@ $( function() {
 } );
 
 
+// －－－－－－－－－－－－－－按讚效果－－－－－－－－－－－－－－
 
+$( function() {
+	$( '.likeHand').on( "click", function() {
+		$(".likeNumber").animate({'font-size' : '33px'}, 'fast');
+		$(".likeNumber").animate({'font-size' : '23px'}, 'fast');
+	});
+});
+
+
+$(function(H1){
+  $('.choosing1').on("click" , function(){
+		$(".H2,.N2,.H3,.N3,.H4,.N4,.H5,.N5,.H6,.N6,.H7,.N7,.H8,.N8,.H9,.N9").css("display" , "none")
+	  $('.H1,.N1') .css("display" , "block")
+		$('.N1').css("color" , "#723f48")
+  });
+
+  var like = 0;
+    $('.H1').on("click" , function(){
+
+	    like += 1;
+
+	    console.log(like);
+	    document.querySelector('.N1').textContent = like;
+  });
+});
+
+
+$(function(H2){
+  $('.choosing2').on("click" , function(){
+		$(".H1,.N1,.H3,.N3,.H4,.N4,.H5,.N5,.H6,.N6,.H7,.N7,.H8,.N8,.H9,.N9").css("display" , "none")
+	  $('.H2,.N2') .css("display" , "block")
+		$('.N2').css("color" , "#d8a57c")
+  });
+
+  var like = 0;
+    $('.H2').on("click" , function(){
+
+	    like += 1;
+
+	    console.log(like);
+	    document.querySelector('.N2').textContent = like;
+  });
+});
+
+
+$(function(H3){
+  $('.choosing3').on("click" , function(){
+		$(".H1,.N1,.H2,.N2,.H4,.N4,.H5,.N5,.H6,.N6,.H7,.N7,.H8,.N8,.H9,.N9").css("display" , "none")
+	  $('.H3,.N3') .css("display" , "block")
+		$('.N3').css("color" , "#7f6667")
+  });
+
+  var like = 0;
+    $('.H3').on("click" , function(){
+
+	    like += 1;
+
+	    console.log(like);
+	    document.querySelector('.N3').textContent = like;
+  });
+});
+
+
+$(function(H4){
+  $('.choosing4').on("click" , function(){
+		$(".H1,.N1,.H2,.N2,.H3,.N3,.H5,.N5,.H6,.N6,.H7,.N7,.H8,.N8,.H9,.N9").css("display" , "none")
+	  $('.H4,.N4') .css("display" , "block")
+		$('.N4').css("color" , "#a590a4")
+  });
+
+  var like = 0;
+    $('.H4').on("click" , function(){
+
+	    like += 1;
+
+	    console.log(like);
+	    document.querySelector('.N4').textContent = like;
+  });
+});
+
+
+$(function(H5){
+  $('.choosing5').on("click" , function(){
+		$(".H1,.N1,.H2,.N2,.H3,.N3,.H4,.N4,.H6,.N6,.H7,.N7,.H8,.N8,.H9,.N9").css("display" , "none")
+	  $('.H5,.N5') .css("display" , "block")
+		$('.N5').css("color" , "#7b8f9b")
+  });
+
+  var like = 0;
+    $('.H5').on("click" , function(){
+
+	    like += 1;
+
+	    console.log(like);
+	    document.querySelector('.N5').textContent = like;
+  });
+});
+
+$(function(H6){
+  $('.choosing6').on("click" , function(){
+		$(".H1,.N1,.H2,.N2,.H3,.N3,.H4,.N4,.H5,.N5,.H7,.N7,.H8,.N8,.H9,.N9").css("display" , "none")
+	  $('.H6,.N6') .css("display" , "block")
+		$('.N6').css("color" , "#a08f82")
+  });
+
+  var like = 0;
+    $('.H6').on("click" , function(){
+
+	    like += 1;
+
+	    console.log(like);
+	    document.querySelector('.N6').textContent = like;
+  });
+});
+
+
+$(function(H7){
+  $('.choosing7').on("click" , function(){
+		$(".H1,.N1,.H2,.N2,.H3,.N3,.H4,.N4,.H5,.N5,.H6,.N6,.H8,.N8,.H9,.N9").css("display" , "none")
+	  $('.H7,.N7') .css("display" , "block")
+		$('.N7').css("color" , "#7c6f39")
+  });
+
+  var like = 0;
+    $('.H7').on("click" , function(){
+
+	    like += 1;
+
+	    console.log(like);
+	    document.querySelector('.N7').textContent = like;
+  });
+});
+
+
+$(function(H8){
+  $('.choosing8').on("click" , function(){
+		$(".H1,.N1,.H2,.N2,.H3,.N3,.H4,.N4,.H5,.N5,.H6,.N6,.H7,.N7,.H9,.N9").css("display" , "none")
+	  $('.H8,.N8') .css("display" , "block")
+		$('.N8').css("color" , "#222c35")
+  });
+
+  var like = 0;
+    $('.H8').on("click" , function(){
+
+	    like += 1;
+
+	    console.log(like);
+	    document.querySelector('.N8').textContent = like;
+  });
+});
+
+
+$(function(H9){
+  $('.choosing9').on("click" , function(){
+		$(".H1,.N1,.H2,.N2,.H3,.N3,.H4,.N4,.H5,.N5,.H6,.N6,.H7,.N7,.H8,.N8").css("display" , "none")
+	  $('.H9,.N9') .css("display" , "block")
+		$('.N9').css("color" , "#ffffff")
+  });
+
+  var like = 0;
+    $('.H9').on("click" , function(){
+
+	    like += 1;
+
+	    console.log(like);
+	    document.querySelector('.N9').textContent = like;
+  });
+});
 
 
 

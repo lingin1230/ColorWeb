@@ -21,7 +21,7 @@
 
     .logo {
 
-      margin: 100px 100px 25px 89px;
+      margin: 95px 100px 25px 89px;
     }
 
     .logoSize {
@@ -69,9 +69,17 @@
 
     }
 
+    .mSize{
+      margin: 25px 10px 0 95px;
+      width: 35px;
+      float: left;
+
+    }
+
     .love {
 
-      margin: 35px 0 0 100px;
+      margin: 30px 0 0 100px;
+      float: left;
     }
 
     .loveSize {
@@ -131,6 +139,7 @@
       margin-right: 5px;
     }
 
+
     .mainColor {
 
       float: left;
@@ -145,7 +154,39 @@
       font-family: 'Noto Serif TC', serif;
       font-size: 30px;
       letter-spacing: 5px;
+      float: left;
 
+    }
+
+    .likeHand {
+
+      /* float: left; */
+    }
+
+    .handSize{
+      margin: 11px 10px 0 10px;
+      width: 27px;
+      float: left;
+    }
+
+    .likeNumber {
+      padding-top: 10px;
+
+      float: left;
+      width:30px;
+      height:30px;
+      font-size: 23px;
+      /* color:#9b9b9b; */
+    }
+
+
+
+    .N1,.N2,.N3,.N4,.N5,.N6,.N7,.N8,.N9{
+      display: none;
+    }
+
+    .H1,.H2,.H3,.H4,.H5,.H6,.H7,.H8,.H9{
+      display: none;
     }
 
     .firstColor {
