@@ -1,11 +1,23 @@
 
+
     body {
+
       /* background: #222f3e; */
       /* background: #ece7e1; */
       font-family: monospace ;
       background-image: url(img/paper6.jpg);
       background-size: 100%;
 
+    }
+
+    .navbar {
+      padding-left:30px;
+    }
+
+    .fb,.ig,.twi{
+
+      width:20px;
+      padding-bottom: 2px;
     }
 
     .mainArea{
