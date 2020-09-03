@@ -14,10 +14,14 @@
       padding-left:30px;
     }
 
-    .fb,.ig,.twi{
+    .fb,.ig,.twi,.re{
 
       width:20px;
       padding-bottom: 2px;
+    }
+
+    .re {
+      width: 15px;
     }
 
     .mainArea{
