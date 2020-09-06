@@ -618,11 +618,11 @@ $('.submit').click(function(){
 
 
 
-$('.submit2').click(function(){
+$('#submit2').click(function(){
 
-  $('.yourMessage').css("display" , "block")
-	$('#yourName').text($('#name').val());
-	$('#yourMessage').text($('#text').val());
+  $('.yourMessage2').css("display" , "block")
+	$('#yourName2').text($('#name2').val());
+	$('#yourMessage2').text($('#text2').val());
 
 
 });
