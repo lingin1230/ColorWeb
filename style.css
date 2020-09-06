@@ -1,5 +1,709 @@
 
 
+
+
+
+body {
+
+  /* background: #222f3e; */
+  /* background: #ece7e1; */
+  font-family: monospace ;
+  background-image: url(img/paper6.jpg);
+  background-size:100%;
+
+}
+
+.navbar {
+  padding-left:15px;
+}
+
+.fb,.ig,.twi,.re{
+
+  width:20px;
+  padding-bottom: 2px;
+}
+
+/* .re {
+  width: 15px;
+} */
+
+.mainArea{
+  height:1200px;
+  width:100%;
+  /* background-color:blue; */
+}
+
+.listStyle {
+
+  list-style: none;
+}
+
+/* 左邊主選色 */
+
+#pick{
+  float: left;
+}
+
+
+
+.logo {
+  display: none;
+  margin: 95px 100px 25px 89px;
+}
+.logoSize {
+  width: 48px;
+}
+.pick {
+  display: none;
+  margin-left: 100px;
+}
+.pickSize {
+  width: 25px;
+}
+
+
+
+.logo2{
+
+  margin:50px 5px 0 20px;
+  float: left;
+}
+
+
+.logo2Size {
+
+  width:250px;
+}
+
+.message{
+
+  float: left;
+  margin: 50px 0 0 13px;
+}
+
+.mSize{
+  width: 27px;
+  float: left;
+
+}
+
+.dropdown {
+  float: left;
+}
+
+.love {
+
+  margin: 53px 0 0 15px;
+  float: left;
+}
+
+.loveSize {
+
+  width: 20px;
+}
+
+.long {
+  width: 260px;
+  /* height: 200px; */
+}
+
+
+.love1{
+  width: 45px;
+  height:45px;
+  background-color: tomato;
+
+  float: left;
+  margin-left: 6px;
+  margin-right: 5px;
+}
+
+.love2{
+  width: 45px;
+  height:45px;
+  background-color: white;
+
+  float: left;
+  margin-right: 5px;
+}
+
+.love3{
+  width: 45px;
+  height:45px;
+  background-color: gray;
+
+  float: left;
+  margin-right: 5px;
+}
+
+.love4{
+  width: 45px;
+  height:45px;
+  background-color: black;
+
+  float: left;
+  margin-right: 5px;
+}
+
+.love5{
+  width: 45px;
+  height:45px;
+  background-color: blue;
+
+  float: left;
+  margin-right: 5px;
+}
+
+
+.mainColor {
+
+  float: left;
+  margin-top: 50px;
+
+}
+
+.firstColorName {
+  margin-bottom: 20px;
+
+  color : #9b9b9b;
+  font-family: 'Noto Serif TC', serif;
+  font-size: 30px;
+  letter-spacing: 5px;
+  float: left;
+
+}
+
+.likeHand {
+
+  /* float: left; */
+}
+
+.handSize{
+  margin: 11px 10px 0 10px;
+  width: 27px;
+  float: left;
+}
+
+.likeNumber {
+  padding-top: 10px;
+
+  float: left;
+  width:30px;
+  height:30px;
+  font-size: 23px;
+  /* color:#9b9b9b; */
+}
+
+
+
+.N1,.N2,.N3,.N4,.N5,.N6,.N7,.N8,.N9{
+  display: none;
+}
+
+.H1,.H2,.H3,.H4,.H5,.H6,.H7,.H8,.H9{
+  display: none;
+}
+
+.firstColor {
+
+  /* float: left; */
+  /* margin-left: 40px; */
+  margin: 60px 0 0 40px;
+
+  width: 300px;
+  height: 50px;
+  background-color: #9b9b9b;
+
+}
+
+.firstColorCMYK {
+
+  margin:5px 0 0 40px;
+
+  color : #9b9b9b;
+  font-size: 17px;
+  letter-spacing: 5px;
+
+}
+
+.chooseColor {
+  margin-left: 40px;
+  margin-top: 10px;
+
+  color: #9b9b9b;
+  /* font-family: 'Noto Serif TC', serif; */
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+.fiveToChoose{
+  float: left;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.detail{
+  margin-bottom: 30px;
+  width: 450px;
+  height:200px;
+  color : #9b9b9b;
+  font-family: 'Noto Serif TC', serif;
+  font-size: 14px;
+
+}
+
+.pic {
+
+  width: 300px;
+  height: 175px;
+  margin-top: 0;
+  background-position: center;
+  background-size: 450px;
+}
+
+.ball {
+
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  /* margin-right: 11px;
+  margin-left: 11px; */
+  margin: 7px;
+  margin-top:-30px;
+  /* border: solid 1px white; */
+  /* background-color: #855253; */
+}
+
+.one {
+
+  float: left;
+  background-color: #9b9b9b;
+
+}
+
+.two {
+
+  float: left;
+  margin-left: 25px;
+  background-color: #9b9b9b;
+}
+
+.three {
+
+  float: left;
+  margin-left: 25px;
+  background-color: #9b9b9b;
+}
+
+.four {
+
+  float: left;
+  margin-left: 25px;
+  background-color: #9b9b9b;
+}
+
+.five {
+
+  float: left;
+  margin-left: 25px;
+  background-color: #9b9b9b;
+}
+
+
+/* 右邊搭配區域 */
+
+.matchArea {
+
+  float: left;
+  margin-top: 55px;
+  margin-left: 10px;
+}
+
+.matchColorName {
+
+  margin-bottom: 0px;
+
+  /* color : #827e62; */
+  /* font-family: 'Noto Serif TC', serif; */
+  font-size: 13px;
+  letter-spacing: 5px;
+}
+
+.matchColor {
+
+  float: left;
+  margin-left: 30px;
+  margin-bottom: 45px;
+
+  width: 300px;
+  height: 27px;
+  /* background-color: #827e62; */
+
+}
+
+.matchColorCMYK {
+
+  padding-top: 35px;
+  padding-left: 40px;
+
+  list-style: none;
+  font-size: 9px;
+  letter-spacing: 5px;
+}
+
+    /* ----------右側CSS屬性---------- */
+
+.match1 {
+
+  color : #9b9b9b;
+}
+
+.color1 {
+
+  background-color: #9b9b9b;
+}
+
+.CMYK1 {
+
+  color : #9b9b9b;
+}
+
+.match2 {
+
+  color : #9b9b9b;
+  /* margin-top: 28px; */
+}
+
+.color2 {
+
+  background-color: #9b9b9b;
+}
+
+.CMYK2 {
+
+  color : #9b9b9b;
+}
+
+.match3 {
+
+  color : #9b9b9b;
+}
+
+.color3 {
+
+  background-color: #9b9b9b;
+}
+
+.CMYK3 {
+
+  color : #9b9b9b;
+}
+
+.match4 {
+
+  color : #9b9b9b;
+}
+
+.color4 {
+
+  background-color: #9b9b9b;
+}
+
+.CMYK4 {
+
+  color : #9b9b9b;
+}
+
+.match5 {
+
+  color : #9b9b9b;
+}
+
+.color5 {
+
+  background-color: #9b9b9b;
+}
+
+.CMYK5 {
+
+  color : #9b9b9b;
+}
+
+/* ----------右側CSS屬性---------- */
+
+
+
+
+.choosing1 {
+  background-color: #7b131d;
+
+}
+.choosing1TextColor {
+  color: #7b131d;
+}
+
+.choosing2 {
+  background-color:#e28220;
+}
+
+.choosing2TextColor {
+  color: #e28220;
+}
+
+
+
+.choosing3 {
+  background-color:#855758;
+}
+
+.choosing3TextColor {
+  color: #855758;
+}
+
+.choosing4 {
+  background-color:#917b8f;
+}
+
+.choosing4TextColor {
+  color: #917b8f;
+}
+
+.choosing5 {
+  background-color:#687d8b;
+}
+
+.choosing5TextColor {
+  color: #687d8b;
+}
+
+.choosing6 {
+  background-color:#a17f63;
+}
+
+.choosing6TextColor {
+  color: #a17f63;
+}
+
+.choosing7 {
+  background-color:#6c6230;
+}
+
+.choosing7TextColor {
+  color: #6c6230;
+}
+
+
+.choosing8 {
+  background-color:#141d26;
+}
+
+.choosing8TextColor {
+  color: #141d26;
+}
+
+.choosing9 {
+  background-color:#e0d7cc;
+}
+
+.choosing9TextColor {
+  color: #e0d7cc;
+}
+
+
+.hr1{
+
+  background-color: white;
+  margin: 0 30px 60px 30px;
+}
+
+
+.messageArea{
+  width:100%;
+  height:300px;
+  /* background-color: black; */
+
+}
+
+.messageLeft{
+  width: 50%;
+  height: 500px;
+  /* background-color: black; */
+  float: left;
+}
+
+.messageRight{
+  width: 50%;
+  height: 500px;
+  /* background-color: white; */
+  float: left;
+}
+
+.name{
+
+  /* float: left; */
+  margin: 0 0 0 100px;
+  display: none;
+}
+
+#name{
+
+  background-color: #30404f;
+  color: white;
+
+  border: solid white 1px;
+  border-radius: 7px;
+  font-size: 14px;
+  letter-spacing: 5px;
+}
+
+.text{
+
+  margin: 20px 0 0 100px;
+  display: none;
+  /* float: left; */
+}
+
+#text{
+
+  background-color: #30404f;
+  color: white;
+
+  border: solid white 1px;
+  border-radius: 7px;
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+
+.submit{
+
+  margin: 20px 0 0 490px;
+  display: none;
+}
+
+#submit{
+
+  font-size: 15px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+
+
+
+
+.name2{
+
+  /* float: left; */
+  margin: 0 0 0 85px;
+}
+
+#name2{
+
+  background-color: #30404f;
+  color: white;
+
+  border: solid white 1px;
+  border-radius: 7px;
+  font-size: 14px;
+  letter-spacing: 5px;
+}
+
+.text2{
+
+  margin: 20px 0 0 85px;
+  /* float: left; */
+}
+
+#text2{
+
+  background-color: #30404f;
+  color: white;
+
+  border: solid white 1px;
+  border-radius: 7px;
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+
+.submit2{
+
+  margin: 20px 0 0 250px;
+}
+
+#submit2{
+
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+
+
+
+
+.yourMessage{
+
+  width: 500px;
+  height:150px;
+  margin: 20px 0 20px 100px;
+  padding: 15px;
+
+  background-color: #30404f;
+  color: white;
+
+  border: solid white 1px;
+  border-radius: 7px;
+  font-size: 14px;
+  letter-spacing: 3px;
+
+  display: none;
+}
+
+.hr2 {
+
+  background-color: white;
+  margin: 10px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+
+  float:left;
+  position: fixed;
+
+  height: 25px;
+  width: 100%;
+  bottom: 0px;
+  margin-top: 50px;
+  padding-top: 5px;
+  padding-right: 5px;
+  text-align: right;
+
+  /* background-color: #18232d; */
+  color: #9b9b9b;
+  font-size: 11px;
+  letter-spacing: 3px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 415px) {
+
+
+
     body {
 
       /* background: #222f3e; */
@@ -11,7 +715,7 @@
     }
 
     .navbar {
-      padding-left:30px;
+      padding-left:15px;
     }
 
     .fb,.ig,.twi,.re{
@@ -44,6 +748,7 @@
     .logo {
 
       margin: 95px 100px 25px 89px;
+      display: block;
     }
 
     .logoSize {
@@ -51,8 +756,13 @@
       width: 48px;
     }
 
+    .logo2 {
+      display: none;
+    }
+
     .pick {
       margin-left: 100px;
+      display: block;
     }
 
     .pickSize {
@@ -92,7 +802,7 @@
     }
 
     .mSize{
-      margin: 25px 10px 0 95px;
+      margin: 30px 10px 0 80px;
       width: 35px;
       float: left;
 
@@ -100,7 +810,7 @@
 
     .love {
 
-      margin: 30px 0 0 100px;
+      margin: 30px 0 0 -38px;
       float: left;
     }
 
@@ -215,6 +925,7 @@
 
       float: left;
       margin-left: 40px;
+      margin-top: 0px;
 
       width: 450px;
       height: 50px;
@@ -225,6 +936,7 @@
     .firstColorCMYK {
       padding-top: 50px;
       padding-left: 40px;
+      margin-left: 0;
 
       color : #9b9b9b;
       font-size: 17px;
@@ -272,6 +984,7 @@
       width: 50px;
       height: 50px;
       border-radius: 50%;
+      margin-top: 0;
       margin-right: 11px;
       margin-left: 11px;
       /* border: solid 1px white; */
@@ -546,6 +1259,7 @@
 
       /* float: left; */
       margin: 0 0 0 100px;
+      display: block;
     }
 
     #name{
@@ -563,6 +1277,7 @@
 
       margin: 20px 0 0 100px;
       /* float: left; */
+      display: block;
     }
 
     #text{
@@ -579,6 +1294,7 @@
     .submit{
 
       margin: 20px 0 0 490px;
+      display: block;
     }
 
     #submit{
@@ -588,6 +1304,57 @@
 
       /* border: solid white 1px;
       border-radius: 7px; */
+      font-size: 15px;
+      letter-spacing: 3px;
+      text-align: center;
+    }
+
+
+
+    .name2{
+
+      /* float: left; */
+      margin: 0 0 0 100px;
+      display: none;
+    }
+
+    #name2{
+
+      background-color: #30404f;
+      color: white;
+
+      border: solid white 1px;
+      border-radius: 7px;
+      font-size: 14px;
+      letter-spacing: 5px;
+    }
+
+    .text2{
+
+      margin: 20px 0 0 100px;
+      /* float: left; */
+      display: none;
+    }
+
+    #text2{
+
+      background-color: #30404f;
+      color: white;
+
+      border: solid white 1px;
+      border-radius: 7px;
+      font-size: 14px;
+      letter-spacing: 3px;
+    }
+
+    .submit2{
+
+      margin: 20px 0 0 490px;
+      display: none;
+    }
+
+    #submit2{
+
       font-size: 15px;
       letter-spacing: 3px;
       text-align: center;
@@ -645,3 +1412,5 @@
       font-size: 11px;
       letter-spacing: 3px;
     }
+
+  }

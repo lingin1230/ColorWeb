@@ -615,6 +615,18 @@ $('.submit').click(function(){
 
 });
 
+
+
+
+$('.submit2').click(function(){
+
+  $('.yourMessage').css("display" , "block")
+	$('#yourName').text($('#name').val());
+	$('#yourMessage').text($('#text').val());
+
+
+});
+
 // －－－－－－－－－－－－－－留言區域－－－－－－－－－－－－－－
 
 
