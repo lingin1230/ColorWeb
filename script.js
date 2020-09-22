@@ -1,21 +1,4 @@
 
-
-// 點按戰爭煙霧
-// document.querySelector('.choosing1').addEventListener('click' , function(){
-//
-// 	document.querySelector('.firstColorName').style = 'color : #7b131d';
-//   document.querySelector('.firstColorName').textContent = '戰 爭 煙 霧';
-//   document.querySelector('.firstColor').style = 'background-color : #7b131d';
-//   document.querySelector('.firstColorCMYK').textContent = 'C50 M100 Y98 K29';
-//   document.querySelector('.firstColorCMYK').style = 'color : #7b131d';
-// });
-
-
-// 主色調緩緩變化
-//
-
-//
-//
 // 1點按戰爭煙霧
 $( function() {
 
@@ -51,8 +34,9 @@ $( function() {
 		$(".four") .animate({'background-color' : '#6d5258'}, 'slow');
 		$(".five") .animate({'background-color' : '#665d60'}, 'slow');
 
-		// $(".pic") .animate({'background-image' : 'url(img/pic1.jpg)'}, 'slow');
 		$(".pic").css("background-image","url(img/pic1.jpg)");
+
+		$("#ball,.halo").css("background-color","#772934");
 
 
 	      // $('.firstColor').click(function(){
@@ -61,16 +45,6 @@ $( function() {
 
 	});
 } );
-
-
-
-
-// $(".btn1").click(function(){
-//   $("p").css("color","red");
-// });
-
-
-
 
 
 // 2點按秋果豐收
@@ -109,20 +83,8 @@ $( function() {
 
 		$(".pic").css("background-image","url(img/pic2.jpg)");
 
+		$("#ball,.halo").css("background-color","#dd924e");
 
-		// 點按增加到愛心裡
-
-		// $('.firstColor').click(function(){
-		// 	$('.love1').css("background-color","#e28220");
-
-			// $(document).ready(function(){
-	    //   $('.firstColor').click(function(){
-	    //     $('.fiveYouLove').append(" <div></div> ");
-	    //   });
-
-				// $('.fiveYouLove.div').css("background-color","#7b131d");
-
-		// });
 	});
 } );
 
@@ -161,6 +123,8 @@ $( function() {
 		$(".five") .animate({'background-color' : '#7f6667'}, 'slow');
 
 		$(".pic").css("background-image","url(img/pic3.jpg)");
+
+		$("#ball,.halo").css("background-color","#7f6667");
 	});
 } );
 
@@ -199,6 +163,8 @@ $( function() {
 		$(".five") .animate({'background-color' : '#917b8f'}, 'slow');
 
 		$(".pic").css("background-image","url(img/pic4.jpg)");
+
+		$("#ball,.halo").css("background-color","#8c648a");
 	});
 } );
 
@@ -238,6 +204,8 @@ $( function() {
 		$(".five") .animate({'background-color' : '#7b8387'}, 'slow');
 
 		$(".pic").css("background-image","url(img/pic5.jpg)");
+
+		$("#ball,.halo").css("background-color","#4c7287");
 	});
 } );
 
@@ -277,6 +245,8 @@ $( function() {
 		$(".five") .animate({'background-color' : '#a08f82'}, 'slow');
 
 		$(".pic").css("background-image","url(img/pic6.jpg)");
+
+		$("#ball,.halo").css("background-color","#a08f82");
 	});
 } );
 
@@ -317,6 +287,8 @@ $( function() {
 		$(".five") .animate({'background-color' : '#636050'}, 'slow');
 
 		$(".pic").css("background-image","url(img/pic7.jpg)");
+
+		$("#ball,.halo").css("background-color","#636050");
 	});
 } );
 
@@ -356,6 +328,8 @@ $( function() {
 		$(".five") .animate({'background-color' : '#464d51'}, 'slow');
 
 		$(".pic").css("background-image","url(img/pic8.jpg)");
+
+		$("#ball,.halo").css("background-color","#464d51");
 	});
 } );
 
@@ -395,6 +369,8 @@ $( function() {
 		$(".four") .animate({'background-color' : '#e0d7cc'}, 'slow');
 		$(".five") .animate({'background-color' : '#fff7ee'}, 'slow');
 		$(".pic").css("background-image","url(img/pic9.jpg)");
+
+		$("#ball,.halo").css("background-color","#99948f");
 	});
 } );
 
@@ -627,79 +603,66 @@ $('#submit2').click(function(){
 
 });
 
-// －－－－－－－－－－－－－－留言區域－－－－－－－－－－－－－－
+// －－－－－－－－－－－－－－留言區域End－－－－－－－－－－－－－－
 
 
 
 
 
+// －－－－－－－－－－－－－－滑鼠效果－－－－－－－－－－－－－－
 
 
 
 
+    var BallX = 0;
+    var BallY = 0;
+    var MouseX = 0;
+    var MouseY = 0;
+    var VelX = 0;
+    var VelY = 0;
+
+    const docStyle = document.documentElement.style;
+    const strength = 0.15;
+    const drag = 0.15;
+
+    document.addEventListener("mousemove", (event) => {
+
+      MouseX = event.clientX;
+      MouseY = event.clientY;
+    });
+
+    function DelayMotion(){
+
+      var DistanceX = MouseX - BallX;
+      DistanceX *= strength;
+      VelX *= drag;
+      VelX += DistanceX;
+
+      BallX += VelX
+      // console.log("DistanceX: " , DistanceX);
+      // console.log("MouseX: " , MouseX);
+      // console.log("BallX" , BallX);
+
+      var DistanceY = MouseY - BallY;
+      DistanceY *= strength;
+      VelY *= drag;
+      VelY += DistanceY;
+
+      BallY += VelY
+
+      docStyle.setProperty("--MouseX", BallX);
+      docStyle.setProperty("--MouseY", BallY);
+
+      docStyle.setProperty("--scale" , (VelX + VelY) * strength);
+
+      requestAnimationFrame(DelayMotion);
+    }
+
+    DelayMotion();
 
 
 
-// 111111111111111111111
-//
-// var cn = document.querySelector('.firstColorName');
-//
-// var c = document.querySelector('.firstColor');
-//
-// var cmyk = document.querySelector('.firstColorCMYK');
-//
-// var cc = 1;
-//
-// // function pushBtn () {
-// 	document.querySelector('.choosing'+ cc).addEventListener('click' , function(){
-//
-// 	  c.classList.add('choosing'+ cc);
-// 		cn.classList.add('choosing'+ cc +'TextColor');
-// 		cmyk.classList.add('choosing' + cc + 'TextColor');
-//
-// 	  cmyk.textContent = 'C50 M100 Y98 K29';
-// 		cn.textContent = '戰 爭 煙 霧';
-//
-// 	});
-//
-//
-//
-// };
-
-	// 111111111111111111111
-
-
-
-// 可刪
-// var currentPlayer = 1;
-//
-// if (currentPlayer === 1) {
-// 	document.getElementById('player-' + currentPlayer + '-current-score').textContent = dice;
-//
-//
-// }
-//
-// else {
-// 		document.getElementById('player-' + currentPlayer + '-current-score').textContent = dice;
-//
-// 		player2TotalSc
-//
-
-
-
-//
-
-
-
-
-
-
-
-
-
-
-
-
+// －－－－－－－－－－－－－－滑鼠效果End－－－－－－－－－－－－－－
 
 
 
