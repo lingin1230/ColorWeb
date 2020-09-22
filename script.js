@@ -577,30 +577,28 @@ $('.message').click(function(){
 });
 
 
+// $('.submit').click(function(){
+//
+//   $('.yourMessage').css("display" , "block")
+// 	$('#yourName').text($('#name').val());
+// 	$('#yourMessage').text($('#text').val());
+//
+// 	// document.getElementById('yourName').textContent = $('#name').val(); 和上面的是一樣的
+// });
+//
+// $('#submit2').click(function(){
+//
+//   $('.yourMessage2').css("display" , "block")
+// 	$('#yourName2').text($('#name2').val());
+// 	$('#yourMessage2').text($('#text2').val());
+//
+// });
 
-
-
-$('.submit').click(function(){
-
-  $('.yourMessage').css("display" , "block")
-	$('#yourName').text($('#name').val());
-	$('#yourMessage').text($('#text').val());
-
-	// document.getElementById('yourName').textContent = $('#name').val(); 和上面的是一樣的
-
-
-});
-
-
-
-
-$('#submit2').click(function(){
-
-  $('.yourMessage2').css("display" , "block")
-	$('#yourName2').text($('#name2').val());
-	$('#yourMessage2').text($('#text2').val());
-
-
+$(function(){
+	$("#btn").click(function(){
+		$("<textarea></textarea>").text($("#txt").val()).prependTo("#ul");
+		$("#txt").val("");
+	});
 });
 
 // －－－－－－－－－－－－－－留言區域End－－－－－－－－－－－－－－

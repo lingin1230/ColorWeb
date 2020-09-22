@@ -1328,10 +1328,9 @@ body {
       /* background-color: white; */
       float: left;
     }
-
+/*
     .name{
 
-      /* float: left; */
       margin: 0 0 0 100px;
       display: block;
     }
@@ -1350,7 +1349,6 @@ body {
     .text{
 
       margin: 20px 0 0 100px;
-      /* float: left; */
       display: block;
     }
 
@@ -1373,11 +1371,6 @@ body {
 
     #submit{
 
-      /* background-color: #9b9b9b;
-      color: #3f3f3f; */
-
-      /* border: solid white 1px;
-      border-radius: 7px; */
       font-size: 15px;
       letter-spacing: 3px;
       text-align: center;
@@ -1387,7 +1380,6 @@ body {
 
     .name2{
 
-      /* float: left; */
       margin: 0 0 0 100px;
       display: none;
     }
@@ -1406,7 +1398,6 @@ body {
     .text2{
 
       margin: 20px 0 0 100px;
-      /* float: left; */
       display: none;
     }
 
@@ -1452,6 +1443,76 @@ body {
       letter-spacing: 3px;
 
       display: none;
+    } */
+
+/*
+    .box{
+      width: 600px;
+      border: 1px solid black;
+      margin: 50px auto;
+      padding: 50px;
+    } */
+
+    #msg {
+      text-align: center;
+      font-family: 'Noto Serif TC', serif;
+      color: #ffffff;
+      font-size: 30px;
+      letter-spacing: 3px;
+    }
+
+    /* ul{
+      list-style: none;
+      width: 450px;
+      padding-left: 80px;
+    }
+
+    ul li {
+      line-height: 25px;
+      border-bottom: 1px dashed #cccccc;
+    } */
+
+    #txt {
+      margin: 60px 0 0 120px;
+      width: 470px;
+      height: 130px;
+
+      background-color: #33404e;
+      border: 1px solid #ffffff;
+      border-radius: 10px;
+      color: #ffffff;
+      font-size: 15px;
+      letter-spacing: 3px;
+      resize: none;
+    }
+
+    textarea {
+      margin: 60px 0 0 40px;
+      width: 470px;
+      height: 130px;
+
+      background-color: #33404e;
+      border: 1px solid #ffffff;
+      border-radius: 10px;
+      color: #ffffff;
+      font-size: 15px;
+      letter-spacing: 3px;
+      resize: none;
+    }
+
+
+
+    #btn{
+
+      margin: 20px 0 0 515px;
+      width: 75px;
+      height: 35px;
+      background-color: #33404e;
+      border: 1px solid #ffffff;
+      border-radius: 5px;
+      color: #ffffff;
+      font-size: 15px;
+      letter-spacing: 3px;
     }
 
     .hr2 {
